@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>예언자 일보 - 호그와트 레거시</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600&family=Noto+Serif+KR:wght@400;500;600;700&family=Noto+Sans+KR:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="sub-page prophet-page">
+  <header id="header">
+    <div class="header-inner">
+      <h1 class="logo"><a href="index.html"><img src="image/hero-logo 1.png" alt="호그와트 레거시"></a></h1>
+      <nav class="gnb">
+        <ul>
+          <li><a href="gallery.html">주문 도감실</a></li>
+          <li><a href="guide.html">호그와트 학업 가이드</a></li>
+          <li><a href="prophet.html" class="active">예언자 일보</a></li>
+          <li><a href="guestbook.html">스리 브룸스틱스 방명록</a></li>
+        </ul>
+        <img class="nav-line" src="image/line1.png" alt="">
+      </nav>
+      <div class="header-icons">
+        <a href="#"><img src="image/language_icon.png" alt="언어 선택"></a>
+        <a href="#"><img src="image/share_icon.png" alt="공유"></a>
+      </div>
+      <button class="nav-toggle" type="button" aria-label="메뉴 열기" aria-expanded="false"><span></span><span></span><span></span></button>
+    </div>
+  </header>
+
+  <section id="sub-hero">
+    <div class="sub-hero-inner">
+      <p class="sub-hero-small reveal">마법 세계의 오늘을 전하는 신문</p>
+      <h2 class="sub-hero-title reveal">예언자 일보</h2>
+      <img class="deco-line reveal" src="image/line2.png" alt="">
+      <p class="sub-hero-desc reveal">호그와트와 호그스미드 곳곳에서 전해진 최신 소식을 확인하세요.</p>
+    </div>
+  </section>
+
+  <main class="prophet-stage">
+    <section class="prophet-list-view is-active" aria-label="예언자 일보 기사 목록">
+      <div class="prophet-news-wrap reveal">
+        <nav class="prophet-tabs" aria-label="기사 분류">
+          <button type="button" class="is-active">전체</button>
+          <button type="button">공지사항</button>
+          <button type="button">이벤트</button>
+          <button type="button">업데이트</button>
+          <button type="button">커뮤니티</button>
+          <button type="button">보도자료</button>
+        </nav>
+
+        <ul class="prophet-news-list">
+          <li><button class="prophet-news-item" type="button" data-article="0"><img src="image/sub1_card1.png" alt=""><span class="news-copy"><em class="tag tag-notice">공지사항</em><strong>서비스 점검 안내</strong><p>보다 안정적인 게임 환경을 제공하기 위해 정기 점검이 진행될 예정입니다.</p></span><time>2024.05.20</time></button></li>
+          <li><button class="prophet-news-item" type="button" data-article="1"><img src="image/sub1_card2.png" alt=""><span class="news-copy"><em class="tag tag-event">이벤트</em><strong>새로운 이벤트: 마법사의 도전</strong><p>특별한 보상을 획득할 수 있는 새로운 이벤트가 시작되었습니다.</p></span><time>2024.05.18</time></button></li>
+          <li><button class="prophet-news-item" type="button" data-article="2"><img src="image/sub1_card3.png" alt=""><span class="news-copy"><em class="tag tag-update">업데이트</em><strong>5월 업데이트 패치 노트</strong><p>게임 개선 및 버그 수정 사항을 확인해 보세요.</p></span><time>2024.05.16</time></button></li>
+          <li><button class="prophet-news-item" type="button" data-article="3"><img src="image/sub1_card4.png" alt=""><span class="news-copy"><em class="tag tag-community">소식</em><strong>커뮤니티 아트 콘테스트 결과 발표</strong><p>멋진 작품들을 보내주신 모든 분들께 감사드립니다.</p></span><time>2024.05.14</time></button></li>
+          <li><button class="prophet-news-item" type="button" data-article="4"><img src="image/sub1_card5.png" alt=""><span class="news-copy"><em class="tag tag-press">보도자료</em><strong>호그와트 레거시, 전 세계 판매량 2,000만 장 돌파</strong><p>전 세계 마법사 여러분의 성원에 진심으로 감사드립니다.</p></span><time>2024.05.10</time></button></li>
+          <li><button class="prophet-news-item" type="button" data-article="5"><img src="image/sub1_card6.png" alt=""><span class="news-copy"><em class="tag tag-notice">공지사항</em><strong>공식 웹사이트 리뉴얼 안내</strong><p>더 나은 소식과 정보 제공을 위해 웹사이트가 새롭게 단장되었습니다.</p></span><time>2024.05.08</time></button></li>
+        </ul>
+
+        <div class="prophet-pagination" aria-label="페이지 이동">
+          <button type="button" aria-label="이전 페이지" class="page-arrow">‹</button>
+          <button type="button" class="is-active">1</button>
+          <button type="button">2</button>
+          <button type="button">3</button>
+          <button type="button">4</button>
+          <button type="button">5</button>
+          <button type="button" aria-label="다음 페이지" class="page-arrow">›</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="prophet-detail-view" aria-label="예언자 일보 기사 상세" aria-hidden="true">
+      <article class="prophet-article reveal">
+        <button class="prophet-back" type="button">목록으로</button>
+        <p class="article-category"></p>
+        <h2></h2>
+        <div class="article-meta"><span></span><em>예언자 일보 특별 취재팀</em></div>
+        <figure><img src="image/sub1_card1.png" alt=""></figure>
+        <div class="article-body"></div>
+      </article>
+      <nav class="article-nav" aria-label="기사 이동">
+        <button type="button" class="article-prev">‹ 이전글 보기</button>
+        <button type="button" class="article-next">다음글 보기 ›</button>
+      </nav>
+    </section>
+  </main>
+
+  <footer id="footer">
+    <div class="footer-inner">
+      <ul class="footer-links"><li><a href="#">개인정보 처리방침</a></li><li><a href="#">이용 약관</a></li><li><a href="#">광고 선택</a></li></ul>
+      <div class="footer-wb"><img src="image/wb_logo.png" alt="Warner Bros."><p>WARNER BROS. GAMES LOGO, WB SHIELD: &trade;<br>&amp; &copy; Warner Bros. Entertainment Inc. (s24</p></div>
+      <p class="footer-legal">HOGWARTS LEGACY software &copy; 2024 Warner Bros. Entertainment Inc.<br>Developed by Avalanche Software. WIZARDING WORLD and HARRY POTTER<br>Publishing Rights &copy; J.K. Rowling. PORTKEY GAMES, HOGWARTS LEGACY,<br>WIZARDING WORLD AND HARRY POTTER characters, names and related<br>indicia &copy; and &trade; Warner Bros. Entertainment Inc.</p>
+      <img class="footer-mark" src="image/mark.png" alt="12세 이용가">
+    </div>
+  </footer>
+  <script src="js/nav.js"></script>
+  <script src="js/prophet.js"></script>
+</body>
+</html>

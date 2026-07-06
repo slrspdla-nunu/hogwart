@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="108" viewBox="0 0 360 108">
+  <defs><linearGradient id="p" x1="0" x2="1"><stop offset="0" stop-color="#2b1608"/><stop offset="1" stop-color="#5a3a16"/></linearGradient><filter id="s"><feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#000" flood-opacity=".38"/></filter></defs>
+  <path d="M20 8h320c9 0 16 7 16 16v60c0 9-7 16-16 16H20L3 54 20 8Z" fill="url(#p)" stroke="#c9a063" stroke-width="2" filter="url(#s)"/>
+  <path d="M22 15h306" stroke="#fff3cb" stroke-opacity=".46"/><path d="M24 93h304" stroke="#180d05" stroke-opacity=".38"/>
+  <path d='M88 75h52M96 75V47h8v28M112 75V35h8v40M128 75V49h8v26M91 47l25-20 25 20M100 59h32' fill='none' stroke='#f0d596' stroke-width='5' stroke-linecap='round' stroke-linejoin='round'/>
+  <text x="184" y="64" font-family="Noto Serif KR, serif" font-size="24" font-weight="700" fill="#f0d596" text-anchor="middle">입학 안내</text>
+</svg>

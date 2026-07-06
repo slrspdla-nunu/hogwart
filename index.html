@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>호그와트 레거시</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600&family=Noto+Serif+KR:wght@400;500;600;700&family=Noto+Sans+KR:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header id="header">
+    <div class="header-inner">
+      <h1 class="logo">
+        <a href="#hero"><img src="image/hero-logo 1.png" alt="호그와트 레거시"></a>
+      </h1>
+      <nav class="gnb">
+        <ul>
+          <li><a href="gallery.html">주문 도감실</a></li>
+          <li><a href="guide.html">호그와트 학업 가이드</a></li>
+          <li><a href="prophet.html">예언자 일보</a></li>
+          <li><a href="guestbook.html">스리 브룸스틱스 방명록</a></li>
+        </ul>
+        <img class="nav-line" src="image/line1.png" alt="">
+      </nav>
+      <div class="header-icons">
+        <a href="#"><img src="image/language_icon.png" alt="언어 선택"></a>
+        <a href="#"><img src="image/share_icon.png" alt="공유"></a>
+      </div>
+      <button class="nav-toggle" type="button" aria-label="메뉴 열기" aria-expanded="false"><span></span><span></span><span></span></button>
+    </div>
+  </header>
+
+  <!-- Section indicator (dot navigation) -->
+  <ul class="dot-nav">
+    <li class="active" data-target="#hero"></li>
+    <li data-target="#about"></li>
+    <li data-target="#cards"></li>
+    <li data-target="#house"></li>
+  </ul>
+
+  <!-- Hero -->
+  <section id="hero">
+    <!-- 발광 포인트 -->
+    <span class="glow glow-emblem"></span>
+    <span class="glow glow-star"></span>
+    <span class="glow glow-moon"></span>
+    <span class="glow glow-wand"></span>
+    <div class="hero-inner">
+      <img class="hero-logo reveal" src="image/hero-logo.png" alt="호그와트 레거시">
+      <img class="deco-line reveal" src="image/line2.png" alt="">
+      <p class="hero-title reveal">당신만의 마법 이야기가 시작됩니다</p>
+      <p class="hero-sub reveal">1800년대 호그와트를 탐험하여 <br class="br-mo">숨겨진 마법을 밝혀보세요</p>
+      <div class="hero-btns reveal">
+        <a href="#about" class="btn btn-blue"><span>지금 입학하기</span></a>
+        <a href="#" class="btn btn-brown"><span>트레일러 보기</span></a>
+      </div>
+    </div>
+    <img class="hero-bottom-line" src="image/line1.png" alt="">
+  </section>
+
+  <!-- Section 1 + 2 : starry background -->
+  <div class="starry-bg">
+
+    <!-- About -->
+    <section id="about">
+      <div class="section-head reveal">
+        <span class="eng-title">ABOUT THE GAME</span>
+        <h2>당신만의 마법 이야기가 시작됩니다</h2>
+        <img class="deco-line" src="image/line2.png" alt="">
+      </div>
+      <div class="letter reveal">
+        <img class="letter-img" src="image/letter.png" alt="호그와트 입학 편지">
+        <div class="letter-text">
+          <p>
+            1800년대의 호그와트에 오신 것을 환영합니다.<br>
+            당신은 마법 세계를 산산조각 낼 수 있는<br>
+            오래된 비밀의 열쇠를 쥔 5학년 편입생입니다.<br>
+            기존의 역사에 기록되지 않은 나만의 이야기를 써내려가십시오.<br>
+            동맹을 맺고, 어둠의 마법사들과 결투를 벌이며<br>
+            마법 세계의 운명을 결정지을 거대한 여정의 주인공이 됩니다.
+          </p>
+          <p class="letter-last">당신이 남길 전설은 무엇입니까?</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Cards -->
+    <section id="cards">
+      <div class="section-head reveal">
+        <h2>역사의 빈 페이지를 장식해보세요</h2>
+        <img class="deco-line" src="image/line2.png" alt="">
+      </div>
+      <ul class="card-list">
+        <li class="card reveal">
+          <img src="image/care_1.png" alt="마녀 또는 마법사">
+          <div class="card-caption">
+            <img class="deco" src="image/deco.png" alt="">
+            <p>꿈에 그리던 마녀 또는<br>마법사가 되어보세요</p>
+          </div>
+        </li>
+        <li class="card reveal">
+          <img src="image/care_2.png" alt="새로운 모험">
+          <div class="card-caption">
+            <img class="deco" src="image/deco.png" alt="">
+            <p>마법 세계에서<br>새로운 모험을 경험하세요</p>
+          </div>
+        </li>
+        <li class="card reveal">
+          <img src="image/care_3.png" alt="오픈 월드">
+          <div class="card-caption">
+            <img class="deco" src="image/deco.png" alt="">
+            <p>아름다운 경치의<br>오픈 월드를 탐험하세요</p>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+  </div>
+
+  <!-- House -->
+  <section id="house">
+    <div class="house-bg"></div>
+    <div class="house-inner">
+      <div class="section-head reveal">
+        <span class="eng-title">CHOOSE YOUR HOUSE</span>
+        <h2>당신의 기숙사를 선택하세요</h2>
+        <img class="deco-line" src="image/line2.png" alt="">
+      </div>
+
+      <!-- 인트로 -->
+      <div class="house-view house-intro is-active reveal">
+        <p class="house-intro-text">여섯 개의 질문에 답하고<br>당신에게 어울리는 호그와트 기숙사를 찾아보세요.</p>
+        <button type="button" class="house-btn house-start">기숙사 배정 테스트 시작</button>
+        <button type="button" class="house-link house-skip-all">바로 전체 기숙사 보기</button>
+      </div>
+
+      <!-- 테스트 -->
+      <div class="house-view house-quiz">
+        <div class="quiz-top">
+          <span class="quiz-count"><b class="quiz-cur">1</b> / 6</span>
+          <div class="quiz-bar"><span class="quiz-bar-fill"></span></div>
+        </div>
+        <p class="quiz-question"></p>
+        <ul class="quiz-options"></ul>
+        <div class="quiz-nav">
+          <button type="button" class="quiz-back">‹ 이전으로</button>
+        </div>
+      </div>
+
+      <!-- 결과 / 상세 -->
+      <div class="house-view house-result">
+        <p class="result-label">당신의 기숙사는</p>
+        <div class="result-body">
+          <div class="result-imgwrap"><img class="result-img" src="" alt=""></div>
+          <div class="result-desc">
+            <h3 class="result-eng"></h3>
+            <p class="result-kr"></p>
+            <ul class="result-traits"></ul>
+            <p class="result-text"></p>
+          </div>
+        </div>
+        <div class="result-actions">
+          <button type="button" class="house-btn house-show-all">전체 기숙사 보기</button>
+          <button type="button" class="house-btn-ghost house-retry">테스트 다시하기</button>
+        </div>
+      </div>
+
+      <!-- 전체 보기 -->
+      <div class="house-view house-all">
+        <ul class="house-list">
+          <li class="house-item" data-house="gryffindor">
+            <img src="image/GRYFFINDOR.png" alt="그리핀도르">
+            <p>GRYFFINDOR</p>
+          </li>
+          <li class="house-item" data-house="slytherin">
+            <img src="image/SLYTHERIN.png" alt="슬리데린">
+            <p>SLYTHERIN</p>
+          </li>
+          <li class="house-item" data-house="ravenclaw">
+            <img src="image/RAVENCLAW.png" alt="래번클로">
+            <p>RAVENCLAW</p>
+          </li>
+          <li class="house-item" data-house="hufflepuff">
+            <img src="image/HUFFLEPUFF.png" alt="후플푸프">
+            <p>HUFFLEPUFF</p>
+          </li>
+        </ul>
+        <button type="button" class="house-btn-ghost house-retry">테스트 다시하기</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer id="footer">
+    <div class="footer-inner">
+      <ul class="footer-links">
+        <li><a href="#">개인정보 처리방침</a></li>
+        <li><a href="#">이용 약관</a></li>
+        <li><a href="#">광고 선택</a></li>
+      </ul>
+      <div class="footer-wb">
+        <img src="image/wb_logo.png" alt="Warner Bros.">
+        <p>WARNER BROS. GAMES LOGO, WB SHIELD: &trade;<br>
+           &amp; &copy; Warner Bros. Entertainment Inc. (s24</p>
+      </div>
+      <p class="footer-legal">
+        HOGWARTS LEGACY software &copy; 2024 Warner Bros. Entertainment Inc.<br>
+        Developed by Avalanche Software. WIZARDING WORLD and HARRY POTTER<br>
+        Publishing Rights &copy; J.K. Rowling. PORTKEY GAMES, HOGWARTS LEGACY,<br>
+        WIZARDING WORLD AND HARRY POTTER characters, names and related<br>
+        indicia &copy; and &trade; Warner Bros. Entertainment Inc.
+      </p>
+      <img class="footer-mark" src="image/mark.png" alt="12세 이용가">
+    </div>
+  </footer>
+
+  <!-- 루모스 / 녹스 토글 -->
+  <button class="wand-toggle" id="wandToggle" aria-label="라이트 모드 전환">
+    <span class="wand">
+      <span class="wand-stick"></span>
+      <span class="wand-tip"></span>
+    </span>
+  </button>
+  <span class="spell-text" id="spellText"></span>
+  <div class="lumos-light" id="lumosLight"></div>
+
+  <!-- 펠릭스 펠리시스 (행운의 물약) -->
+  <button class="potion" id="potionBtn" aria-label="행운의 물약 마시기">
+    <span class="potion-cork"></span>
+    <span class="potion-neck"></span>
+    <span class="potion-body">
+      <span class="potion-liquid"></span>
+      <span class="bubble b1"></span>
+      <span class="bubble b2"></span>
+      <span class="bubble b3"></span>
+      <span class="bubble b4"></span>
+    </span>
+  </button>
+  <div class="luck-toast" id="luckToast"></div>
+
+  <!-- 골든 스니치 -->
+  <div class="snitch" id="snitch">
+    <img class="snitch-body" src="image/golden_sn.png" alt="골든 스니치">
+  </div>
+
+  <script src="js/nav.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
+
+
