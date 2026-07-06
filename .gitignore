@@ -1,0 +1,7 @@
+# 웹사이트와 무관한 개인 문서/작업 산출물 제외
+김주휘_*
+*.hwpx
+guide-mobile-check.png
+
+# 개발 도구 설정
+.claude/

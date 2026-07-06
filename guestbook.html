@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>스리 브룸스틱스 방명록 - 호그와트 레거시</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600&family=Noto+Serif+KR:wght@400;500;600;700&family=Noto+Sans+KR:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="sub-page guest-page">
+  <header id="header">
+    <div class="header-inner">
+      <h1 class="logo"><a href="index.html"><img src="image/hero-logo 1.png" alt="호그와트 레거시"></a></h1>
+      <nav class="gnb">
+        <ul>
+          <li><a href="gallery.html">주문 도감실</a></li>
+          <li><a href="guide.html">호그와트 학업 가이드</a></li>
+          <li><a href="prophet.html">예언자 일보</a></li>
+          <li><a href="guestbook.html" class="active">스리 브룸스틱스 방명록</a></li>
+        </ul>
+        <img class="nav-line" src="image/line1.png" alt="">
+      </nav>
+      <div class="header-icons">
+        <a href="#"><img src="image/language_icon.png" alt="언어 선택"></a>
+        <a href="#"><img src="image/share_icon.png" alt="공유"></a>
+      </div>
+      <button class="nav-toggle" type="button" aria-label="메뉴 열기" aria-expanded="false"><span></span><span></span><span></span></button>
+    </div>
+  </header>
+
+  <section id="sub-hero">
+    <div class="sub-hero-inner">
+      <p class="sub-hero-small reveal">호그스미드의 소식을 나누는 공간</p>
+      <h2 class="sub-hero-title reveal">스리 브룸스틱스 방명록</h2>
+      <img class="deco-line reveal" src="image/line2.png" alt="">
+      <p class="sub-hero-desc reveal">다른 마법사들과 이야기를 나누고, 모험과 추억을 공유하세요.</p>
+    </div>
+  </section>
+
+  <main class="guest-stage">
+    <div class="guest-inner reveal">
+      <aside class="popular-board">
+        <img src="image/guest-panel.png" alt="" class="popular-frame">
+        <div class="popular-content">
+          <h3>인기 게시물</h3>
+          <ol>
+            <li><button type="button" data-post="6"><strong>1</strong><span>호그와트의 숨겨진 방을 발견했어요!</span><em class="popular-like"><span class="stat-like">128</span></em></button></li>
+            <li><button type="button" data-post="7"><strong>2</strong><span>그레이트홀에서 건진 최고의 후기</span><em class="popular-like"><span class="stat-like">97</span></em></button></li>
+            <li><button type="button" data-post="8"><strong>3</strong><span>금지된 숲에서 만난 신비한 생명체</span><em class="popular-like"><span class="stat-like">86</span></em></button></li>
+            <li><button type="button" data-post="9"><strong>4</strong><span>오늘의 마법 수업 일지</span><em class="popular-like"><span class="stat-like">74</span></em></button></li>
+            <li><button type="button" data-post="10"><strong>5</strong><span>호그스미드 축제 소식</span><em class="popular-like"><span class="stat-like">65</span></em></button></li>
+          </ol>
+        </div>
+      </aside>
+
+      <section class="guest-board" aria-label="방명록 게시글">
+        <button class="write-btn" type="button"><span>글 작성하기</span></button>
+        <ul class="post-grid">
+          <li><button class="post-card" type="button" data-post="0"><img src="image/guest-card.png" alt=""><span class="post-pin"></span><b>새로운 친구를<br>찾고 있어요!</b><p>같이 퀘스트 할 마법 친구를 찾습니다. 초보 환영!</p><em>아이리스 펜로즈<br>20분 전</em><span class="post-meta"><span class="stat-like">12</span><span class="stat-comment">12</span></span></button></li>
+          <li><button class="post-card" type="button" data-post="1"><img src="image/guest-card.png" alt=""><span class="post-pin"></span><b>비밀 수업에서<br>숨겨진 장소!</b><p>북쪽 탑 근처에서 발견한 조용한 복도를 공유해요.</p><em>헤이즐 모스<br>1시간 전</em><span class="post-meta"><span class="stat-like">23</span><span class="stat-comment">3</span></span></button></li>
+          <li><button class="post-card" type="button" data-post="2"><img src="image/guest-card.png" alt=""><span class="post-pin"></span><b>마법약 재료<br>구하는 방법</b><p>희귀한 재료를 모으는 작은 팁을 정리했습니다.</p><em>테오 라이트풋<br>3시간 전</em><span class="post-meta"><span class="stat-like">18</span><span class="stat-comment">15</span></span></button></li>
+          <li><button class="post-card" type="button" data-post="3"><img src="image/guest-card.png" alt=""><span class="post-pin"></span><b>호그와트 야경 감상</b><p>오늘 밤 호그와트 성의 하늘이 정말 아름다워요.</p><em>익명 마법사<br>5시간 전</em><span class="post-meta"><span class="stat-like">15</span><span class="stat-comment">3</span></span></button></li>
+          <li><button class="post-card" type="button" data-post="4"><img src="image/guest-card.png" alt=""><span class="post-pin"></span><b>던전 탐험 파티 모집</b><p>함께 던전 탐험하실 분 모집합니다. 레벨 25 이상!</p><em>데미안 코스그로브<br>6시간 전</em><span class="post-meta"><span class="stat-like">9</span><span class="stat-comment">1</span></span></button></li>
+          <li><button class="post-card" type="button" data-post="5"><img src="image/guest-card.png" alt=""><span class="post-pin"></span><b>퀴디치 팀원 모집</b><p>가볍게 즐길 팀원을 모아요. 모든 포지션 환영!</p><em>노라 윈터스<br>6시간 전</em><span class="post-meta"><span class="stat-like">11</span><span class="stat-comment">14</span></span></button></li>
+        </ul>
+        <button class="more-posts" type="button">더 많은 게시글 보기</button>
+      </section>
+    </div>
+  </main>
+
+  <div class="guest-modal" aria-hidden="true">
+    <div class="guest-modal-backdrop" data-close="true"></div>
+    <article class="guest-modal-card" role="dialog" aria-modal="true" aria-label="게시글 상세">
+      <img src="image/guest-modal.png" alt="" class="modal-frame">
+      <button class="modal-close" type="button" aria-label="닫기">×</button>
+      <div class="modal-content">
+        <h3></h3>
+        <p class="modal-author"></p>
+        <p class="modal-body"></p>
+        <p class="modal-meta"></p>
+      </div>
+    </article>
+  </div>
+
+  <div class="write-modal" aria-hidden="true">
+    <div class="guest-modal-backdrop" data-write-close="true"></div>
+    <article class="guest-modal-card write-modal-card" role="dialog" aria-modal="true" aria-label="방명록 글 작성">
+      <img src="image/guest-modal.png" alt="" class="modal-frame">
+      <button class="modal-close write-close" type="button" aria-label="닫기">×</button>
+      <form class="write-form">
+        <h3>새로운 이야기 남기기</h3>
+        <div class="write-row write-row-split">
+          <label>제목<input name="title" type="text" maxlength="24" placeholder="게시글 제목" required></label>
+          <label>작성자<input name="author" type="text" maxlength="12" placeholder="마법사 이름" required></label>
+        </div>
+        <label class="write-row">내용<textarea name="body" maxlength="120" placeholder="함께 나누고 싶은 모험이나 소식을 적어주세요." required></textarea></label>
+        <div class="write-actions">
+          <p>등록하면 방명록 첫 번째 카드로 올라갑니다.</p>
+          <button type="submit">등록하기</button>
+        </div>
+      </form>
+    </article>
+  </div>
+
+  <footer id="footer">
+    <div class="footer-inner">
+      <ul class="footer-links"><li><a href="#">개인정보 처리방침</a></li><li><a href="#">이용 약관</a></li><li><a href="#">광고 선택</a></li></ul>
+      <div class="footer-wb"><img src="image/wb_logo.png" alt="Warner Bros."><p>WARNER BROS. GAMES LOGO, WB SHIELD: &trade;<br>&amp; &copy; Warner Bros. Entertainment Inc. (s24</p></div>
+      <p class="footer-legal">HOGWARTS LEGACY software &copy; 2024 Warner Bros. Entertainment Inc.<br>Developed by Avalanche Software. WIZARDING WORLD and HARRY POTTER<br>Publishing Rights &copy; J.K. Rowling. PORTKEY GAMES, HOGWARTS LEGACY,<br>WIZARDING WORLD AND HARRY POTTER characters, names and related<br>indicia &copy; and &trade; Warner Bros. Entertainment Inc.</p>
+      <img class="footer-mark" src="image/mark.png" alt="12세 이용가">
+    </div>
+  </footer>
+  <script src="js/nav.js"></script>
+  <script src="js/guestbook.js"></script>
+</body>
+</html>
